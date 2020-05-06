@@ -8,10 +8,10 @@ import {
   BrowserRouter as Router 
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './custom.scss'; // OVERRIDES
 import Nav from 'react-bootstrap/Nav'
-// import Container from 'react-bootstrap/Container'
-import './index.css';
-// import './custom.scss'; // Works! Compiled by WebPack????
+import Container from 'react-bootstrap/Container'
+// import './index.css';
 import App from './App';
 import Story from './routes/story';
 import Media from './routes/media';
@@ -80,6 +80,7 @@ const routing = (
         </Nav.Item>
       </Nav>
 
+      <Container>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/media" component={Media} />
@@ -94,6 +95,8 @@ const routing = (
         <Route path="/contact" component={Contact} />
         <Route component={Notfound} />
       </Switch> 
+      </Container>
+      
 
       <Nav className="justify-content-center" >
       <Nav.Item>

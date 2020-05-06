@@ -1,5 +1,23 @@
-// Override default variables before the import
-$body-bg: #000;
+// NOTE: Reference ~bootstrap/scss/_variables for canonical bootstrap vars
+
+// NOTE: Override default variables before the import
+
+// NOTE: LHS will do a lookup from ~boostrap (without an explicate @import); RHS will NOT do a lookup. 
+// OK $white: red;
+// NOT $body-bg: $white;
+
+// NOTE: Variables used RHS must be either @imported or overriden here in scope
+
+// Custom Variables in scope
+$pink: pink;
+$gray: #282c34;
+$light-gray: #ddd;  
+
+// Settings for the `<body>` element.
+$body-bg: $gray;
+$body-color: $light-gray;
+$link-color: $pink;
+$link-hover-color: darken($pink, 15%) !default;
 
 // Import Bootstrap and its default variables
 // Note: You must prefix imports from node_modules with ~ as displayed below.
