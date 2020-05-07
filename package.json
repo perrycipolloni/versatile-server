@@ -4,7 +4,8 @@
   "author": "perry.cipolloni@gmail.com",
   "license": "MIT",
   "engines": {
-    "node": "12.16.2"
+    "node": "12.16.2",
+    "npm": "6.x"
   },
   "scripts": {
     "start": "node server.js",

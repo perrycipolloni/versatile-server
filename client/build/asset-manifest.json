@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d41364f5.chunk.css",
+    "main.js": "/static/js/main.53e9454a.chunk.js",
+    "main.js.map": "/static/js/main.53e9454a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c815b4f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c815b4f.js.map",
+    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
+    "static/js/2.bc7afe2f.chunk.js": "/static/js/2.bc7afe2f.chunk.js",
+    "static/js/2.bc7afe2f.chunk.js.map": "/static/js/2.bc7afe2f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a61657b1a60be32a10540694f1ada0a1.js": "/precache-manifest.a61657b1a60be32a10540694f1ada0a1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
+    "static/css/main.d41364f5.chunk.css.map": "/static/css/main.d41364f5.chunk.css.map",
+    "static/js/2.bc7afe2f.chunk.js.LICENSE.txt": "/static/js/2.bc7afe2f.chunk.js.LICENSE.txt",
+    "static/media/tone150.png": "/static/media/tone150.a1707a80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c815b4f.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.bc7afe2f.chunk.js",
+    "static/css/main.d41364f5.chunk.css",
+    "static/js/main.53e9454a.chunk.js"
+  ]
+}
