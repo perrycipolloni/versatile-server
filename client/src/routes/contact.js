@@ -15,9 +15,7 @@ class Contact extends React.Component {
     render() {
         return (
             <Container className="section">
-                <br />
-                <br />
-                <br />
+                
                 <br />
                 <h2>Contact Tone</h2>
                 <p>For any questions or inquiries, feel free to reach us here:</p>
@@ -56,13 +54,7 @@ class Contact extends React.Component {
                 
 
                 {/* Add space */}
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+               
                 <br />
                 
             </Container>

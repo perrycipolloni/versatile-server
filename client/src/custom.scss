@@ -23,6 +23,10 @@ $toxicwaste: darken($purple, 15%);
 $lt-gray: lighten($gray, 55%);
 $dk-gray: darken($gray, 10%);
 
+// BREAKPOINTS
+$breakpoint-phone: 576px;
+
+
 
 // ===== BODY
 // Background
@@ -36,6 +40,8 @@ body {
 
 // ===== Type
 // Type
+
+
 $body-color: $lt-gray;
 $link-color: $toxicwaste;
 $link-hover-color: $pollution !default;
@@ -120,7 +126,7 @@ nav.navbar.bg-dark {
 // COLOR
 // Links
 a.nav-link, .navbar-brand {
-  $breakpoint-phone: 576px;
+
 @media (max-width: $breakpoint-phone) {
   font-size: 0.8rem;
   padding-top: 0rem;

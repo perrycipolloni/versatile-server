@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import dizzy from '../videos/dizzy.mp4'
-import badtv from '../videos/badtv.mp4'
-import bricks from '../videos/bricks.mp4'
-import inkbleed from '../videos/inkbleed.mp4'
-import jazzsmoke from '../videos/jazzsmoke.mp4'
-import pollution from '../videos/pollution.mp4'
-import lines from '../videos/lines.mp4'
-import smoke from '../videos/smoke.mp4'
-import verticalDistortion from '../videos/verticalDistortion.mp4'
+import BadTV from '../vdo_folder/BadTV.mp4'
+import Bricks from '../vdo_folder/Bricks.mp4'
+import HiFi_JazzSmoke from '../vdo_folder/HiFi_JazzSmoke.mp4'
+import InkBleed from '../vdo_folder/InkBleed.mp4'
+import Lines from '../vdo_folder/Lines.mp4'
+import LowKey_JazzSmoke from '../vdo_folder/LowKey_JazzSmoke.mp4'
+import Smoke from '../vdo_folder/Smoke.mp4'
+import VerticalDistortion from '../vdo_folder/VerticalDistortion.mp4'
 
 
 class CoverVDO extends Component {
   
   // ===== Script to select vdo
   componentDidMount() {
-    // // videos
-    // const videos = [dizzy, badtv, bricks, inkbleed, jazzsmoke, pollution, lines, smoke, verticalDistortion]
     
     // // SELECT BY DATE
     // const today = Date.now();
@@ -35,14 +32,14 @@ class CoverVDO extends Component {
 
 
     // // SELECT RANDOMLY
-    // let randomNumUnderSix = 0
+    // let randomNumUnderSeven = 0
     // const randomNum = Math.floor(Math.random() * 10 )
-    // randomNum > 5 ?  randomNumUnderSix = randomNum - 4 : randomNumUnderSix = randomNum;
+    // randomNum > 5 ?  randomNumUnderSeven = randomNum - 4 : randomNumUnderSeven = randomNum;
     // console.log("This is random num " + randomNum)
-    // console.log("This is a random num under six is " + randomNumUnderSix)
+    // console.log("This is a random num under six is " + randomNumUnderSeven)
 
     // // assigns video
-    // const todaysVideo = videos[randomNumUnderSix]
+    // const todaysVideo = videos[randomNumUnderSeven]
     // console.log("todays video is " +  todaysVideo)
   }
 
@@ -52,7 +49,7 @@ class CoverVDO extends Component {
       // console.log(todaysVideo)
 
       // VIDEOS
-      const videos = [dizzy, badtv, bricks, inkbleed, jazzsmoke, pollution, lines, smoke, verticalDistortion]
+      const videos = [BadTV, Bricks, InkBleed, HiFi_JazzSmoke, LowKey_JazzSmoke, Lines, Smoke, VerticalDistortion]
       
       // // SELECT BY DATE
       // const today = Date.now();
@@ -71,14 +68,14 @@ class CoverVDO extends Component {
       // // END select by date
 
       // SELECT RANDOMLY
-      let randomNumUnderSix = 0
+      let randomNumUnderSeven = 0
       const randomNum = Math.floor(Math.random() * 10 )
-      randomNum > 8 ?  randomNumUnderSix = randomNum - 2 : randomNumUnderSix = randomNum;
+      randomNum > 7 ?  randomNumUnderSeven = randomNum - 3 : randomNumUnderSeven = randomNum;
       console.log("This is random num " + randomNum)
-      console.log("This is a random num under nine is " + randomNumUnderSix)
+      console.log("This is a random num under seven is " + randomNumUnderSeven)
 
       // assigns video
-      const todaysVideo = videos[randomNumUnderSix]
+      const todaysVideo = videos[randomNumUnderSeven]
       
   
         return (
