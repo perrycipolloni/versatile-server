@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import dizzy from '../videos/dizzy.mp4'
-import badtv from '../videos/badtv.mp4'
-import bricks from '../videos/bricks.mp4'
-import inkbleed from '../videos/inkbleed.mp4'
-import jazzsmoke from '../videos/jazzsmoke.mp4'
-import pollution from '../videos/pollution.mp4'
-import lines from '../videos/lines.mp4'
-import smoke from '../videos/smoke.mp4'
-import verticalDistortion from '../videos/verticalDistortion.mp4'
+import BadTV from '../videos/BadTV.mp4'
+import Bricks from '../videos/Bricks.mp4'
+import HiFi_JazzSmoke from '../videos/HiFi_JazzSmoke.mp4'
+import InkBleed from '../videos/InkBleed.mp4'
+import Lines from '../videos/Lines.mp4'
+import LowKey_JazzSmoke from '../videos/LowKey_JazzSmoke.mp4'
+import Smoke from '../videos/Smoke.mp4'
+import VerticalDistortion from '../videos/VerticalDistortion.mp4'
 
 
 class CoverVDO extends Component {
   
   // ===== Script to select vdo
   componentDidMount() {
-    // // videos
-    // const videos = [dizzy, badtv, bricks, inkbleed, jazzsmoke, pollution, lines, smoke, verticalDistortion]
     
     // // SELECT BY DATE
     // const today = Date.now();
@@ -52,7 +49,7 @@ class CoverVDO extends Component {
       // console.log(todaysVideo)
 
       // VIDEOS
-      const videos = [dizzy, badtv, bricks, inkbleed, jazzsmoke, pollution, lines, smoke, verticalDistortion]
+      const videos = [BadTV, Bricks, InkBleed, HiFi_JazzSmoke, LowKey_JazzSmoke, Lines, Smoke, VerticalDistortion]
       
       // // SELECT BY DATE
       // const today = Date.now();
