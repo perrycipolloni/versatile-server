@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // import video from './logoDrawOn.mp4'
 // import Container from 'react-bootstrap/Container'
 import './App.css';
-// import CoverVDO from './components/CoverVDO';
+import CoverVDO from './components/CoverVDO';
 // import Story from './components/Story';
 // import Vendors from './routes/vendors';
 // import Contact from './routes/contact';
@@ -78,7 +78,7 @@ render() {
               height: '100vh',
               }} />
         </header> */}
-        {/* <CoverVDO /> */}
+        <CoverVDO />
             
         {/* <Container>
           <Story />
