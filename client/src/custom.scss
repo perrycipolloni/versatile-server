@@ -120,6 +120,11 @@ nav.navbar.bg-dark {
 // COLOR
 // Links
 a.nav-link, .navbar-brand {
+  $breakpoint-phone: 576px;
+@media (max-width: $breakpoint-phone) {
+  font-size: 0.8rem;
+  padding-top: 0rem;
+}
   font-size: 1.2rem;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;

@@ -22,7 +22,9 @@ import * as serviceWorker from './serviceWorker';
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 // import gsap from 'gsap'
 
-// const tweenComplete = () => "#responsive-navbar-nav".NavbarCollapse 
+// const tweenComplete = () => {
+//   return NavbarCollapse
+// } 
 
 const routing = (
   <Router>
