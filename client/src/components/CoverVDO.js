@@ -82,7 +82,7 @@ class CoverVDO extends Component {
             <header className="App-header">
               <video src={todaysVideo} autoPlay muted loop style={{
                 type: 'video/mp4',
-                playsinline: true,
+                playsInline: true,
                 objectFit: 'cover',
                 overflow: 'hidden',
                 width: '100vw',
