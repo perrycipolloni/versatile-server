@@ -5,6 +5,7 @@ import HiFi_JazzSmoke from '../vdo_folder/HiFi_JazzSmoke.mp4'
 import InkBleed from '../vdo_folder/InkBleed.mp4'
 import Lines from '../vdo_folder/Lines.mp4'
 import LowKey_JazzSmoke from '../vdo_folder/LowKey_JazzSmoke.mp4'
+import PinkSmoke from '../vdo_folder/PinkSmoke.mp4'
 import Smoke from '../vdo_folder/Smoke.mp4'
 import VerticalDistortion from '../vdo_folder/VerticalDistortion.mp4'
 
@@ -49,7 +50,7 @@ class CoverVDO extends Component {
       // console.log(todaysVideo)
 
       // VIDEOS
-      const videos = [BadTV, Bricks, InkBleed, HiFi_JazzSmoke, LowKey_JazzSmoke, Lines, Smoke, VerticalDistortion]
+      const videos = [BadTV, Bricks, InkBleed, HiFi_JazzSmoke, LowKey_JazzSmoke, PinkSmoke, Lines, Smoke, VerticalDistortion]
       
       // // SELECT BY DATE
       // const today = Date.now();
@@ -70,7 +71,7 @@ class CoverVDO extends Component {
       // SELECT RANDOMLY
       let randomNumUnderSeven = 0
       const randomNum = Math.floor(Math.random() * 10 )
-      randomNum > 7 ?  randomNumUnderSeven = randomNum - 3 : randomNumUnderSeven = randomNum;
+      randomNum > 8 ?  randomNumUnderSeven = randomNum - 4 : randomNumUnderSeven = randomNum;
       console.log("This is random num " + randomNum)
       console.log("This is a random num under seven is " + randomNumUnderSeven)
 
