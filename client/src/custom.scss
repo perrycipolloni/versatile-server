@@ -122,6 +122,12 @@ nav.navbar.bg-dark {
   z-index: 5 !important;
 }
 
+// Hamburger
+.navbar-light .navbar-toggler {
+  border-color: $lt-gray !important;
+  background-color: transparentize(#000, .9);
+}
+
 
 // COLOR
 // Links
@@ -143,11 +149,6 @@ a.nav-link, .navbar-brand {
   }
 }
 
-// Hamburger
-.navbar-light .navbar-toggler {
-  // border-color: $gray !important;
-  background-color: transparentize(#000, .9);
-}
 
 
 
