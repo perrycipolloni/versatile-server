@@ -17,7 +17,9 @@ class Media extends React.Component {
         return (
             <Container className="section">
                 <h2>Media</h2> 
-                <p>Lorem ipsum dolor sit amet, usu falli audire impedit id. Alia quaestio delicatissimi mea at, consequat ullamcorper mea et, in eum porro ludus quodsi. Oratio lucilius ad eos, eros consequuntur ea ius, per legere offendit interpretaris ne. Pro et tempor evertitur, vis accusam suscipit invenire at. Mei ei apeirian accusata accusamus. Ea affert voluptua convenire sea, quando platonem vim no.</p>
+                <p>Information is at the heart of the Music Industry. Tone helps you stay informed. Read about the people who making the news. Whether in Billboard Magazine, Variety, or Rolling Stone. This is your Music Industry.</p>
+                {/* <Twitter /> */}
+                {/* <Instagram /> */}
                 <News />
 
                 {/* <div className="section">
