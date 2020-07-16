@@ -76,9 +76,13 @@ i.fab {
 }
 
 // ===== VDO
-// .App-header {
-//   position: fixed;
-// }
+.App-header video {
+  @media (max-width: $breakpoint-phone) {
+    // height: 80%;
+  }
+}
+
+
 
 // ===== NAVBAR
 // LAYOUT
