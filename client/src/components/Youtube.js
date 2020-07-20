@@ -5,16 +5,16 @@ import ReactPlayer from 'react-player'
 // TODO: Make the VDO fill the container
 
 class Youtube extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            youtube: [],
-        }
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         youtube: [],
+    //     }
+    // }
 
-    componentDidMount() {
+    // componentDidMount() {
 
-    }
+    // }
 
     render() {
         return (

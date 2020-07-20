@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import BadTV from '../vdo_folder/BadTV.mp4'
-import Bricks from '../vdo_folder/Bricks.mp4'
-import HiFi_JazzSmoke from '../vdo_folder/HiFi_JazzSmoke.mp4'
-import InkBleed from '../vdo_folder/InkBleed.mp4'
-import Lines from '../vdo_folder/Lines.mp4'
-import LowKey_JazzSmoke from '../vdo_folder/LowKey_JazzSmoke.mp4'
-import PinkSmoke from '../vdo_folder/PinkSmoke.mp4'
-import Smoke from '../vdo_folder/Smoke.mp4'
-import VerticalDistortion from '../vdo_folder/VerticalDistortion.mp4'
+// import BadTV from '../vdo_folder/BadTV.mp4'
+// import Bricks from '../vdo_folder/Bricks.mp4'
+// import HiFi_JazzSmoke from '../vdo_folder/HiFi_JazzSmoke.mp4'
+// import InkBleed from '../vdo_folder/InkBleed.mp4'
+// import Lines from '../vdo_folder/Lines.mp4'
+// import LowKey_JazzSmoke from '../vdo_folder/LowKey_JazzSmoke.mp4'
+// import PinkSmoke from '../vdo_folder/PinkSmoke.mp4'
+// import Smoke from '../vdo_folder/Smoke.mp4'
+// import VerticalDistortion from '../vdo_folder/VerticalDistortion.mp4'
+import Lines_Vertical from '../vdo_folder/Lines_Vertical_1720.mp4'
 
 
 class CoverVDO extends Component {
@@ -50,7 +51,7 @@ class CoverVDO extends Component {
       // console.log(todaysVideo)
 
       // VIDEOS
-      const videos = [BadTV, Bricks, InkBleed, HiFi_JazzSmoke, LowKey_JazzSmoke, PinkSmoke, Lines, Smoke, VerticalDistortion]
+      // const videos = [BadTV, Bricks, InkBleed, HiFi_JazzSmoke, LowKey_JazzSmoke, PinkSmoke, Lines, Smoke, VerticalDistortion]
       
       // // SELECT BY DATE
       // const today = Date.now();
@@ -69,19 +70,19 @@ class CoverVDO extends Component {
       // // END select by date
 
       // SELECT RANDOMLY
-      let randomNumUnderSeven = 0
-      const randomNum = Math.floor(Math.random() * 10 )
-      randomNum > 8 ?  randomNumUnderSeven = randomNum - 4 : randomNumUnderSeven = randomNum;
-      console.log("This is random num " + randomNum)
-      console.log("This is a random num under seven is " + randomNumUnderSeven)
+      // let randomNumUnderSeven = 0
+      // const randomNum = Math.floor(Math.random() * 10 )
+      // randomNum > 8 ?  randomNumUnderSeven = randomNum - 4 : randomNumUnderSeven = randomNum;
+      // console.log("This is random num " + randomNum)
+      // console.log("This is a random num under seven is " + randomNumUnderSeven)
 
-      // assigns video
-      const todaysVideo = videos[randomNumUnderSeven]
+      // // assigns video
+      // const todaysVideo = videos[randomNumUnderSeven]
       
   
         return (
             <header className="App-header">
-              <video src={todaysVideo} playsInline autoPlay muted loop style={{
+              <video src={Lines_Vertical} playsInline autoPlay muted loop style={{
                 type: 'video/mp4',
                 objectFit: 'cover',
                 overflow: 'hidden',
