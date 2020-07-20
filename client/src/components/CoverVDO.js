@@ -8,7 +8,9 @@ import React, { Component } from 'react';
 // import PinkSmoke from '../vdo_folder/PinkSmoke.mp4'
 // import Smoke from '../vdo_folder/Smoke.mp4'
 // import VerticalDistortion from '../vdo_folder/VerticalDistortion.mp4'
-import Lines_Vertical from '../vdo_folder/Lines_Vertical_1720.mp4'
+// import Lines_Vertical from '../vdo_folder/Lines_Vertical_1720.mp4'
+import Lines_Vertical_Square_SingleTagline from '../vdo_folder/Lines_Vertical_Square_SingleTagline.mp4'
+
 
 
 class CoverVDO extends Component {
@@ -82,7 +84,7 @@ class CoverVDO extends Component {
   
         return (
             <header className="App-header">
-              <video src={Lines_Vertical} playsInline autoPlay muted loop style={{
+              <video src={Lines_Vertical_Square_SingleTagline} playsInline autoPlay muted loop style={{
                 type: 'video/mp4',
                 objectFit: 'cover',
                 overflow: 'hidden',
