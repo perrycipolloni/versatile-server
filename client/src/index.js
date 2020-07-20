@@ -19,7 +19,7 @@ import About from './routes/About';
 import Contact from './routes/contact';
 import Notfound from './notfound';
 import * as serviceWorker from './serviceWorker';
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
+// import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 // import gsap from 'gsap'
 
 // const tweenComplete = () => {
@@ -34,7 +34,8 @@ const routing = (
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav onClick={NavbarCollapse} className="mr-auto" >  
+            {/* <Nav onClick={NavbarCollapse} className="mr-auto" >   */}
+            <Nav className="mr-auto" >  
             {/* <Nav onClick={() => gsap.from(".circle", {ease:"bounce", scale: 0.5, onComplete: "NavbarCollapse" , duration: 1, x: -14})} className="mr-auto" >   */}
 
               {/* <Nav.Item onClick={() => gsap.from(".circle1", {ease:"bounce", scale: 0.5, duration: 1, x: -14}) }  className="circle1"> */}
