@@ -15,7 +15,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 // import ReactPlayer from 'react-player'
-import Spotify from '../components/Spotify'
+// import Spotify from '../components/Spotify'
+import Review from '../components/Review'
 
 
 // NOTE: divide API up between client.js and media.js 
@@ -46,8 +47,8 @@ class Clients extends React.Component {
                     </Row>
 
                     
+                    <Review />
 
-                    <Spotify />
                     <br />
                     <br />
                     <br />

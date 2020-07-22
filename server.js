@@ -43,3 +43,25 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
+
+// // PUPPETEER
+// const puppeteer = require('puppeteer');
+
+//         async function scrapeProduct(url) {
+//             const browser = await puppeteer.launch();
+//             const page = await browser.newPage();
+//             await page.goto(url);
+
+//             const [el] = await page.$x('//*[@id="__next"]/div/div[2]/div/div/div[1]/div[3]/img')
+//             const src = await el.getProperty('src');
+//             const srcTxt = await src.jsonValue();
+
+//             console.log({srcTxt})
+//             browser.close();
+//             return srcTxt;
+//         }
+
+//        scrapeProduct('https://lyricallemonade.com/p/bad-btch-blues-chase-alex')
+
+    
+//        console.log(this.srcTxt)
