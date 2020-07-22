@@ -20,7 +20,6 @@ class Youtube extends Component {
         return (
             <div>
                 {/* REACT PLAYER */}
-                {/* <p>Sample Youtube VDO</p> */}
                 <div className='player-wrapper'>
                     <ReactPlayer
                     // style={{ paddingTop: "56.25%" }}

@@ -15,6 +15,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 // import ReactPlayer from 'react-player'
+import Spotify from '../components/Spotify'
+
 
 // NOTE: divide API up between client.js and media.js 
 // TODO: bio lorem, full container vdo, 
@@ -45,7 +47,7 @@ class Clients extends React.Component {
 
                     
 
-                    {/* <Soundcloud /> */}
+                    <Spotify />
                     <br />
                     <br />
                     <br />
