@@ -15,3 +15,5 @@
 
 GET https://gnews.io/api/v3/search?q=music&source=billboard&token=f4f33a3a088407a836e3a419ae99c96f 
 
+# GET https://developer.spotify.com/?artist=chase_alex
+
