@@ -11,7 +11,7 @@ class Review extends React.Component {
            <Container>
                <br />
                <br />
-               <h3>Lyrical Lemonade Says</h3>
+               <h3>Lyrical Lemonade </h3>
                 <img src={headshot} alt="Chase Alex" />
                <br />
                <br />
