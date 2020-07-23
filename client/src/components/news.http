@@ -13,7 +13,8 @@
 # GET http://newsapi.org/v2/everything?domains=billboard.com&apiKey=b1d3b456717c4a2e921dd4cb0379e828
 
 
-GET https://gnews.io/api/v3/search?q=music&source=billboard&token=f4f33a3a088407a836e3a419ae99c96f 
+# GET https://gnews.io/api/v3/search?q=music&source=billboard&token=f4f33a3a088407a836e3a419ae99c96f 
 
 # GET https://developer.spotify.com/?artist=chase_alex
 
+GET https://www.parsehub.com/api/v2/runs/tp0c3Sj2RdVh/data
