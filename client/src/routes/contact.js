@@ -8,17 +8,32 @@ import Container from 'react-bootstrap/Container'
 // TODO: Round trip the POST request
 
 class Contact extends React.Component {
-
-    // onSubmit = () => {
-    //     this.props.history.push('/')
-    // }
+    constructor(props) {
+        super(props);
+        this.state = {
+            wp_title: '',
+            wp_content: '',
+        }
+    }
+    
     render() {
+        fetch('http://versatileco.me/wp-json/wp/v2/posts/30')
+        .then(response => response.json())
+        // .then(posts => console.log(posts))
+        .then(posts => this.setState({
+            wp_title:posts.title.rendered,
+            wp_content:posts.content.rendered 
+        }))
+    
         return (
             <Container className="section">
                 
                 <br />
-                <h2>Contact Tone</h2>
-                <p>For any questions or inquiries, feel free to reach us here:</p>
+                {/* <h2>Contact Tone</h2>
+                <p>For any questions or inquiries, feel free to reach us here:</p> */}
+                <h2>{this.state.wp_title} </h2>
+                <p>{this.state.wp_content} </p>
+
                 {/* MAILTO */}
                 <h3 className="email" ><a href="mailto:info@versatileco.me">info@versatileco.me</a></h3>
                     {/* <Form>
