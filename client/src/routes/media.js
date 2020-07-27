@@ -22,7 +22,7 @@ class Media extends React.Component {
     }
 
     render() {
-        fetch('http://versatileco.me/wp-json/wp/v2/posts/26')
+        fetch('https://versatileco.me/wp-json/wp/v2/posts/26')
             .then(response => response.json())
             // .then(posts => console.log(posts))
             .then(posts => this.setState({
