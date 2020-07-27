@@ -13,26 +13,33 @@ import Container from 'react-bootstrap/Container'
 
 
 class Media extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            wp_title: '',
+            wp_content: '',
+        }
+    }
+
     render() {
+        fetch('https://versatileco.me/wp-json/wp/v2/posts/26')
+            .then(response => response.json())
+            // .then(posts => console.log(posts))
+            .then(posts => this.setState({
+                wp_title:posts.title.rendered,
+                wp_content:posts.content.rendered 
+            }))
+
         return (
             <Container className="section">
-                <h2>Media</h2> 
-                <p>Information is at the heart of the Music Industry. Tone helps you stay informed. Read about the people who making the news. Whether in Billboard Magazine, Variety, or Rolling Stone. This is your Music Industry.</p>
-                {/* <Twitter /> */}
-                {/* <Instagram /> */}
+                {/* <h2>Media</h2> 
+                <p>Information is at the heart of the Music Industry. Tone helps you stay informed. Read about the people who making the news. Whether in Billboard Magazine, Variety, or Rolling Stone. This is your Music Industry.</p> */}
+                <h2>{this.state.wp_title} </h2>
+                <p>{this.state.wp_content} </p>
+
                 <News />
 
-                {/* <div className="section">
-                    <Row>
-                        <Col>
-                            <Twitter />
-                        </Col>
-                        <Col>
-                            <Instagram />
-                        </Col>
-                    </Row>
-
-                </div> */}
+              
                 
                 <br />
                 <br />

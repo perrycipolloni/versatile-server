@@ -17,4 +17,6 @@
 
 # GET https://developer.spotify.com/?artist=chase_alex
 
-GET https://www.parsehub.com/api/v2/runs/tp0c3Sj2RdVh/data
+# GET https://www.parsehub.com/api/v2/runs/tp0c3Sj2RdVh/data
+
+GET https://versatileco.me//wp-json/wp/v2/posts/

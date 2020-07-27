@@ -24,18 +24,33 @@ import Review from '../components/Review'
 
 
 class Clients extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            wp_title: '',
+            wp_content: '',
+        }
+    }
+
     render() {
-        // const { params } = this.props.match;
+        fetch('https://versatileco.me/wp-json/wp/v2/posts/22')
+        .then(response => response.json())
+        // .then(posts => console.log(posts))
+        .then(posts => this.setState({
+            wp_title:posts.title.rendered,
+            wp_content:posts.content.rendered 
+        }))
+
         return (
             <div >
                 {/* Full width VDO  */}
                 <Youtube />
 
                 <Container className="section">
-                    {/* Tease: beginning above the fold */}
-                    <h2>Chase Alex</h2>
-                    {/* Short Bio */}
-                    <p>Take a look in to the mind of Chase Alex, as he faces moral dilemmas in situations his gritty charm can’t get him out of. New York roots with fluid Chicago influence fuels his creativity-in-music as an art. Chase’s artistic production does not call for categories, he says “Immerse yourself into my work”.  One thing you won’t find as a surprise is his zest for auto-crooning over futuristic pop melodies with trap inspired percussion, Chase hopes to use his music to tell stories of hopeless romance while dealing with his fear of growing up all while wearing designer jeans. </p>
+                    {/* <h2>Chase Alex</h2>
+                    <p>Take a look in to the mind of Chase Alex, as he faces moral dilemmas in situations his gritty charm can’t get him out of. New York roots with fluid Chicago influence fuels his creativity-in-music as an art. Chase’s artistic production does not call for categories, he says “Immerse yourself into my work”.  One thing you won’t find as a surprise is his zest for auto-crooning over futuristic pop melodies with trap inspired percussion, Chase hopes to use his music to tell stories of hopeless romance while dealing with his fear of growing up all while wearing designer jeans. </p> */}
+                    <h2>{this.state.wp_title} </h2>
+                    <p>{this.state.wp_content} </p>
 
                     {/* // TODO: I need the real links here */}
                     <Row>
