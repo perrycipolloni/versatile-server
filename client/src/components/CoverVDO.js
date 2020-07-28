@@ -76,8 +76,8 @@ class CoverVDO extends Component {
       let randomNumUnderEight = 0
       const randomNum = Math.floor(Math.random() * 10 )
       randomNum > 8 ?  randomNumUnderEight = randomNum - 2 : randomNumUnderEight = randomNum;
-      console.log("This is random num " + randomNum)
-      console.log("This is a random num under seven is " + randomNumUnderEight)
+      // console.log("This is random num " + randomNum)
+      // console.log("This is a random num under seven is " + randomNumUnderEight)
 
       // assigns video
       const todaysVideo = videos[randomNumUnderEight]
