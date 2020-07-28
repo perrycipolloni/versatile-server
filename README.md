@@ -20,7 +20,7 @@ tone.global is responsive and mobile friendly SPA - Single Page Application buil
 
 ## CMS WordPress RESTful API
 
-The (selected areas) for content management are handled via a REST API in a [WordPress]instance on (https://versatileco.me/wp-admin)
+The (selected areas) for content management are handled via a REST API in a [WordPress](https://versatileco.me/wp-admin)
 
 ## Extensibility
 
