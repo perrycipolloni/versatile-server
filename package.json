@@ -13,7 +13,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "gsap": "^3.4.1",
+    "gsap": "^3.6.0",
     "lodash": "^4.17.19",
     "puppeteer": "^5.2.1",
     "react-instagram-embed": "^1.5.0",
